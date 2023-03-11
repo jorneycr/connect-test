@@ -1,14 +1,14 @@
 # Cars
 
-### Clone the project
+### Clone this project
 
 ## `git clone https://github.com/daniellopez0426/connect-test.git`
 
-### Install dependecies
+### Install dependencies
 
 ## `npm i`
 
-### How start the project
+### How to start this project
 
 ## `npm run start`
 
