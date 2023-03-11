@@ -1,8 +1,14 @@
 # Cars
 
-## `npm install`
+### Clone the project
 
-### Se ejecuta este comando para iniciar la ejecucion del proyecto
+## `git clone https://github.com/daniellopez0426/connect-test.git`
+
+### Install dependecies
+
+## `npm i`
+
+### How start the project
 
 ## `npm run start`
 
