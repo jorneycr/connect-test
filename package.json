@@ -1,0 +1,17 @@
+{
+  "name": "project-connect",
+  "version": "1.0.0",
+  "description": "Cars",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "start": "node ./index.js"
+  },
+  "author": "Jorney Lopez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.14",
+    "nodemon": "^2.0.21"
+  }
+}

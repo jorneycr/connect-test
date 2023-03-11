@@ -1,0 +1,101 @@
+{
+	"info": {
+		"_postman_id": "34c2893b-f133-4627-8a55-61c9abbcfab4",
+		"name": "CARS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16450662"
+	},
+	"item": [
+		{
+			"name": "AddCar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"year\": 2019,\r\n    \"make\": \"Toyota\",\r\n    \"model\": \"Camry\",\r\n    \"color\": \"RED\",\r\n    \"plate\": \"ABC123\",\r\n    \"vin\": \"123145ABC\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/car",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"car"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCars",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"year\": 2019,\r\n    \"make\": \"Toyota\",\r\n    \"model\": \"Camry\",\r\n    \"color\": \"RED\",\r\n    \"plate\": \"ABC123\",\r\n    \"vin\": \"123145ABC\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/cars",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"cars"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCarById",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"year\": 2019,\r\n    \"make\": \"Toyota\",\r\n    \"model\": \"Camry\",\r\n    \"color\": \"RED\",\r\n    \"plate\": \"ABC123\",\r\n    \"vin\": \"123145ABC\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/car/640c1995b46b4b57bc9f5147",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"car",
+						"640c1995b46b4b57bc9f5147"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
