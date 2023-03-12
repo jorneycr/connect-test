@@ -21,7 +21,7 @@
 
 ### getCarById
 
-## `http://localhost:3000/car:idCar`
+## `http://localhost:3000/car/:idCar`
 
 ### addCar
 
